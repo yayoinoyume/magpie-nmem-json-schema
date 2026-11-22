@@ -1,0 +1,27 @@
+{
+  "name": "@magpie-community/middleware-nmem-json-schema",
+  "version": "1.0.0",
+  "description": "Replace Nowledge Mem json_object response_format with a task-specific json_schema; no other request field is touched.",
+  "type": "module",
+  "files": [
+    "nmem-json-schema.middleware.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "magpie",
+    "magpie-middleware",
+    "nowledge-mem",
+    "json-schema",
+    "llm-gateway"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yayoinoyume/magpie-nmem-json-schema.git"
+  },
+  "magpie": {
+    "middleware": "./nmem-json-schema.middleware.js",
+    "options": {}
+  }
+}
